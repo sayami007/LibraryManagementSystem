@@ -40,6 +40,7 @@ Partial Class Book
         '
         'PictureBox1
         '
+        Me.PictureBox1.ErrorImage = CType(resources.GetObject("PictureBox1.ErrorImage"), System.Drawing.Image)
         Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(25, 308)
         Me.PictureBox1.Name = "PictureBox1"
@@ -103,9 +104,9 @@ Partial Class Book
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 13.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(853, 310)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(128, 50)
+        Me.Label7.Size = New System.Drawing.Size(186, 50)
         Me.Label7.TabIndex = 9
-        Me.Label7.Text = "Label7"
+        Me.Label7.Text = "Chemistry"
         '
         'Label8
         '
@@ -113,9 +114,9 @@ Partial Class Book
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 13.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(853, 410)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(128, 50)
+        Me.Label8.Size = New System.Drawing.Size(101, 50)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "Label8"
+        Me.Label8.Text = "AA B"
         '
         'Label9
         '
@@ -123,9 +124,9 @@ Partial Class Book
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 13.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(853, 510)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(128, 50)
+        Me.Label9.Size = New System.Drawing.Size(105, 50)
         Me.Label9.TabIndex = 11
-        Me.Label9.Text = "Label9"
+        Me.Label9.Text = "CS01"
         '
         'Label10
         '
@@ -133,9 +134,9 @@ Partial Class Book
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 13.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(853, 610)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(148, 50)
+        Me.Label10.Size = New System.Drawing.Size(202, 50)
         Me.Label10.TabIndex = 12
-        Me.Label10.Text = "Label10"
+        Me.Label10.Text = "123123123"
         '
         'Label11
         '

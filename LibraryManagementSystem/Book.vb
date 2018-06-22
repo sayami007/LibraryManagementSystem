@@ -1,9 +1,22 @@
-﻿Public Class Book
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+﻿Imports MySql.Data.MySqlClient
 
-    End Sub
+Public Class Book
 
-    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
+    Dim conn As MySqlConnection
+    Dim connectionString As String = "server=localhost;userid=root;password=;database=lms;sslMode=none"
+
+
+
+    Sub ok(id As String)
+        conn = New MySqlConnection
+        conn.ConnectionString = connectionString
+        Dim query As String = "SELECT * FROM book  WHERE Book_Id = '" & id & "'"
+        conn.Open()
+        Dim cmd As New MySqlCommand(query, conn)
+        Dim value = cmd.ExecuteReader
+        Console.WriteLine(value)
+        conn.Close()
+        Console.WriteLine(id)
 
     End Sub
 End Class
